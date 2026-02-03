@@ -115,3 +115,7 @@ bun test:e2e
 ## License
 
 MIT
+
+## Disclaimer
+
+This is an **unofficial** API client and is not affiliated with, endorsed by, or associated with AQI.in or its parent organization. This package is provided for educational and informational purposes under fair use. Accessing publicly available air quality data is lawful and serves the public interest.
