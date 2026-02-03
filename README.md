@@ -1,17 +1,17 @@
-# aqi-in-sdk
+# aqi-in-api
 
 Fully typed TypeScript SDK for the AQI.in Air Quality API.
 
 ## Installation
 
 ```bash
-bun add aqi-in-sdk
+bun add aqi-in-api
 ```
 
 ## Usage
 
 ```typescript
-import { createAQIClient } from "aqi-in-sdk";
+import { createAQIClient } from "aqi-in-api";
 
 const client = createAQIClient();
 
@@ -99,7 +99,7 @@ import type {
   SearchType,
   SlugType,
   RankType,
-} from "aqi-in-sdk";
+} from "aqi-in-api";
 ```
 
 ## Development

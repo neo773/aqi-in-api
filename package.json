@@ -1,5 +1,5 @@
 {
-  "name": "aqi-in-sdk",
+  "name": "aqi-in-api",
   "type": "module",
   "version": "1.0.0",
   "description": "Fully typed TypeScript SDK for the AQI.in Air Quality API",
