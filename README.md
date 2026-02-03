@@ -15,30 +15,44 @@ import { createAQIClient } from "aqi-in-sdk";
 
 const client = createAQIClient();
 
-const stations = await client.getNearestLocation({
-  lat: 28.6139,
-  long: 77.209,
-});
+async function main() {
 
-const results = await client.search({ searchString: "delhi" });
+  const ipDetails = await client.getIpDetails();
+  console.log(ipDetails);
 
-const details = await client.getLocationBySlug({
-  slug: "india/delhi/new-delhi",
-});
+  const nearestLocation = await client.getNearestLocation({
+    lat: ipDetails.lat,
+    long: ipDetails.lon,
+  });
 
-const history = await client.getLast24HourHistory({
-  slug: "india/delhi/new-delhi/janpath",
-  sensorname: "pm25",
-  slugType: "locationId",
-});
+  console.log(nearestLocation);
 
-const rankings = await client.getRankings({
-  sensorname: "pm25",
-  type: "city",
-  limit: 10,
-});
+  const station = nearestLocation[0].location_slug;
 
-const ip = await client.getIpDetails();
+  const locationDetails = await client.getLocationBySlug({
+    slug: station,
+  });
+
+  console.log(locationDetails);
+
+  const history = await client.getLast24HourHistory({
+    slug: station,
+    sensorname: "pm25",
+    slugType: "locationId",
+  });
+
+  console.log(history);
+
+  const history30Days = await client.getLast30DaysHistory({
+    slug: station,
+    sensorname: "pm25",
+    slugType: "locationId",
+  });
+
+  console.log(history30Days);
+}
+
+main().catch(console.error);
 ```
 
 ## API

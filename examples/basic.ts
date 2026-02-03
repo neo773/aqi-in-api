@@ -3,49 +3,40 @@ import { createAQIClient } from "../src";
 const client = createAQIClient();
 
 async function main() {
-  const searchResults = await client.search({ searchString: "Mumbai" });
-  console.log(`Found ${searchResults.cities.length} cities, ${searchResults.stations.length} stations`);
 
-  if (searchResults.cities[0]) {
-    const city = searchResults.cities[0];
-    console.log(`Top result: ${city.city}, ${city.state}`);
-    console.log(`AQI: ${city.iaqi?.aqi ?? "N/A"}`);
-  }
+  const ipDetails = await client.getIpDetails();
+  console.log(ipDetails);
 
-  const nearestStations = await client.getNearestLocation({
-    lat: 28.6139,
-    long: 77.209,
+  const nearestLocation = await client.getNearestLocation({
+    lat: ipDetails.lat,
+    long: ipDetails.lon,
   });
 
-  for (const station of nearestStations.slice(0, 3)) {
-    console.log(`${station.location} (${station.distance?.toFixed(2)} km)`);
-    console.log(`PM2.5: ${station.iaqi.pm25} | AQI: ${station.iaqi.aqi}`);
-  }
+  console.log(nearestLocation);
 
-  const [cityDetails] = await client.getLocationBySlug({
-    slug: "india/delhi/new-delhi",
+  const station = nearestLocation[0].location_slug;
+
+  const locationDetails = await client.getLocationBySlug({
+    slug: station,
   });
-  console.log(`City: ${cityDetails.location}`);
-  console.log(`AQI-IN: ${cityDetails.iaqi["AQI-IN"]}`);
+
+  console.log(locationDetails);
 
   const history = await client.getLast24HourHistory({
-    slug: "india/delhi/new-delhi/janpath",
+    slug: station,
     sensorname: "pm25",
     slugType: "locationId",
   });
-  console.log(`Min: ${history.minValue} | Max: ${history.maxValue} | Avg: ${history.avgValue}`);
 
-  const rankings = await client.getRankings({
+  console.log(history);
+
+  const history30Days = await client.getLast30DaysHistory({
+    slug: station,
     sensorname: "pm25",
-    type: "city",
-    limit: 5,
+    slugType: "locationId",
   });
-  for (const entry of rankings) {
-    console.log(`#${entry.rank} ${entry.location}, ${entry.country} - PM2.5: ${entry.pm25}`);
-  }
 
-  const ipDetails = await client.getIpDetails();
-  console.log(`Your location: ${ipDetails.city}, ${ipDetails.regionName}, ${ipDetails.country}`);
+  console.log(history30Days);
 }
 
 main().catch(console.error);
