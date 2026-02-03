@@ -1,0 +1,1689 @@
+{
+  "getNearestLocation": {
+    "name": "getNearestLocation",
+    "url": "/aqi/v2/getNearestLocation",
+    "params": {
+      "lat": "28.6139",
+      "long": "77.2090",
+      "type": "1",
+      "source": "web"
+    },
+    "data": {
+      "status": "Success",
+      "message": "Nearest stations retrieved successfully",
+      "data": [
+        {
+          "uid": "7024",
+          "city": "New Delhi",
+          "country": "India",
+          "iaqi": {
+            "AQI-IN": 442,
+            "aqi": 354,
+            "co": 105,
+            "no2": 82,
+            "o3": 22,
+            "pm10": 438,
+            "pm25": 305,
+            "so2": 43
+          },
+          "latitude": 28.62577,
+          "longitude": 77.217612,
+          "state": "Delhi",
+          "station": "Janpath, New Delhi, Delhi, India",
+          "time_zone": "Asia/Kolkata",
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "location": "Janpath",
+          "coordinates": [
+            77.217612,
+            28.62577
+          ],
+          "location_slug": "india/delhi/new-delhi/janpath",
+          "city_slug": "india/delhi/new-delhi",
+          "country_slug": "india",
+          "state_slug": "india/delhi",
+          "background_image": "https://myserver.aqi.in/countrybg/india.svg",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "city_lat": 28.6325,
+          "city_lon": 77.2205,
+          "country_lat": 22.179,
+          "country_lon": 79.6146,
+          "state_lat": 28.6274,
+          "state_lon": 77.1717,
+          "isOnline": true,
+          "updatedAt": "2026-02-03T23:01:13.085Z",
+          "isRankedCity": true,
+          "distance": 1.57,
+          "weather": {
+            "uid": "7024",
+            "cloud": 25,
+            "condition": {
+              "text": "Mist",
+              "icon": "https://myserver.aqi.in/uploads/weather-icons/5.svg",
+              "code": 1030
+            },
+            "feelslike_c": 12,
+            "feelslike_f": 53.6,
+            "gust_kph": 13.9,
+            "gust_mph": 8.6,
+            "humidity": 88,
+            "is_day": 0,
+            "last_updated": "2026-02-04 04:00",
+            "last_updated_epoch": 1770157800,
+            "precip_in": 0,
+            "precip_mm": 0,
+            "pressure_in": 30.18,
+            "pressure_mb": 1022,
+            "temp_c": 12.4,
+            "temp_f": 54.3,
+            "uv": 0,
+            "vis_km": 1.3,
+            "vis_miles": 0,
+            "wind_degree": 328,
+            "wind_dir": "NNW",
+            "wind_kph": 7.2,
+            "wind_mph": 4.5,
+            "uv_condition": {
+              "text": "Low",
+              "color_code": "#59b61f"
+            }
+          },
+          "locationId": "7024",
+          "searchType": "locationId",
+          "slug": "india/delhi/new-delhi/janpath"
+        },
+        {
+          "station": "Man Singh Road Area, New Delhi, Delhi, India",
+          "city": "New Delhi",
+          "state": "Delhi",
+          "country": "India",
+          "location": "Man Singh Road Area",
+          "location_slug": "india/delhi/new-delhi/man-singh-road-area",
+          "city_slug": "india/delhi/new-delhi",
+          "state_slug": "india/delhi",
+          "country_slug": "india",
+          "time_zone": "Asia/Kolkata",
+          "latitude": 28.6086179,
+          "longitude": 77.2238987,
+          "uid": "B0A60451D324",
+          "background_image": "https://airquality.aqi.in/public/countrybg/india.svg",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "source": "Community Monitor",
+          "coordinates": [
+            77.2239,
+            28.6086
+          ],
+          "city_lat": 28.6325,
+          "city_lon": 77.2205,
+          "state_lat": 28.6274,
+          "state_lon": 77.1717,
+          "country_lat": 22.179,
+          "country_lon": 79.6146,
+          "isOnline": true,
+          "createdAt": "2025-12-09T07:43:52.751Z",
+          "updatedAt": "2026-02-03T23:01:28.688Z",
+          "iaqi": {
+            "pm25": 306,
+            "pm10": 408,
+            "AQI-IN": 443,
+            "aqi": 461,
+            "noise": 49,
+            "tvoc": 30.686
+          },
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "isRankedCity": true,
+          "distance": 1.57,
+          "weather": {
+            "uid": "B0A60451D324",
+            "cloud": 25,
+            "condition": {
+              "text": "Mist",
+              "icon": "https://myserver.aqi.in/uploads/weather-icons/5.svg",
+              "code": 1030
+            },
+            "feelslike_c": 10.6,
+            "feelslike_f": 51,
+            "gust_kph": 13.9,
+            "gust_mph": 8.6,
+            "humidity": 94,
+            "is_day": 0,
+            "last_updated": "2026-02-04 04:15",
+            "last_updated_epoch": 1770158700,
+            "precip_in": 0,
+            "precip_mm": 0,
+            "pressure_in": 30.18,
+            "pressure_mb": 1022,
+            "temp_c": 11.2,
+            "temp_f": 52.2,
+            "uv": 0,
+            "uv_condition": {
+              "text": "Low",
+              "color_code": "#59b61f"
+            },
+            "vis_km": 1.3,
+            "vis_miles": 0,
+            "wind_degree": 328,
+            "wind_dir": "NNW",
+            "wind_kph": 7.2,
+            "wind_mph": 4.5
+          },
+          "locationId": "B0A60451D324",
+          "searchType": "locationId",
+          "slug": "india/delhi/new-delhi/man-singh-road-area"
+        },
+        {
+          "station": "Delhi Gymkhana Club, New Delhi, Delhi, India",
+          "city": "New Delhi",
+          "state": "Delhi",
+          "country": "India",
+          "location": "Delhi Gymkhana Club",
+          "time_zone": "Asia/Kolkata",
+          "latitude": 28.598,
+          "longitude": 77.2049,
+          "uid": "PLLODA000412",
+          "city_slug": "india/delhi/new-delhi",
+          "country_slug": "india",
+          "location_slug": "india/delhi/new-delhi/delhi-gymkhana-club",
+          "state_slug": "india/delhi",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "coordinates": [
+            77.2049,
+            28.598
+          ],
+          "background_image": "https://myserver.aqi.in/countrybg/india.svg",
+          "city_lat": 28.6325,
+          "city_lon": 77.2205,
+          "country_lat": 22.179,
+          "country_lon": 79.6146,
+          "state_lat": 28.6274,
+          "state_lon": 77.1717,
+          "iaqi": {
+            "AQI-IN": 465,
+            "aqi": 384,
+            "co": 101,
+            "no2": 56,
+            "o3": 23,
+            "pm10": 459,
+            "pm25": 335,
+            "so2": 2
+          },
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "isOnline": true,
+          "updatedAt": "2026-02-03T23:01:17.379Z",
+          "isRankedCity": true,
+          "distance": 1.81,
+          "weather": {
+            "uid": "PLLODA000412",
+            "cloud": 25,
+            "condition": {
+              "text": "Mist",
+              "icon": "https://myserver.aqi.in/uploads/weather-icons/5.svg",
+              "code": 1030
+            },
+            "feelslike_c": 12,
+            "feelslike_f": 53.6,
+            "gust_kph": 13.9,
+            "gust_mph": 8.6,
+            "humidity": 88,
+            "is_day": 0,
+            "last_updated": "2026-02-04 04:00",
+            "last_updated_epoch": 1770157800,
+            "precip_in": 0,
+            "precip_mm": 0,
+            "pressure_in": 30.18,
+            "pressure_mb": 1022,
+            "temp_c": 12.4,
+            "temp_f": 54.3,
+            "uv": 0,
+            "vis_km": 1.3,
+            "vis_miles": 0,
+            "wind_degree": 328,
+            "wind_dir": "NNW",
+            "wind_kph": 7.2,
+            "wind_mph": 4.5,
+            "uv_condition": {
+              "text": "Low",
+              "color_code": "#59b61f"
+            }
+          },
+          "locationId": "PLLODA000412",
+          "searchType": "locationId",
+          "slug": "india/delhi/new-delhi/delhi-gymkhana-club"
+        },
+        {
+          "uid": "10111",
+          "city": "New Delhi",
+          "country": "India",
+          "iaqi": {
+            "AQI-IN": 434,
+            "aqi": 344,
+            "co": 90,
+            "no2": 66,
+            "o3": 22,
+            "pm10": 391,
+            "pm25": 294,
+            "so2": 2
+          },
+          "latitude": 28.600852,
+          "longitude": 77.222363,
+          "state": "Delhi",
+          "station": "Rabindra Nagar, New Delhi, Delhi, India",
+          "time_zone": "Asia/Kolkata",
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "location": "Rabindra Nagar",
+          "coordinates": [
+            77.222363,
+            28.600852
+          ],
+          "location_slug": "india/delhi/new-delhi/rabindra-nagar",
+          "city_slug": "india/delhi/new-delhi",
+          "country_slug": "india",
+          "state_slug": "india/delhi",
+          "background_image": "https://myserver.aqi.in/countrybg/india.svg",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "city_lat": 28.6325,
+          "city_lon": 77.2205,
+          "country_lat": 22.179,
+          "country_lon": 79.6146,
+          "state_lat": 28.6274,
+          "state_lon": 77.1717,
+          "isOnline": true,
+          "updatedAt": "2026-02-03T23:01:13.085Z",
+          "isRankedCity": true,
+          "distance": 1.95,
+          "weather": {
+            "uid": "10111",
+            "cloud": 25,
+            "condition": {
+              "text": "Mist",
+              "icon": "https://myserver.aqi.in/uploads/weather-icons/5.svg",
+              "code": 1030
+            },
+            "feelslike_c": 12,
+            "feelslike_f": 53.6,
+            "gust_kph": 13.9,
+            "gust_mph": 8.6,
+            "humidity": 88,
+            "is_day": 0,
+            "last_updated": "2026-02-04 04:00",
+            "last_updated_epoch": 1770157800,
+            "precip_in": 0,
+            "precip_mm": 0,
+            "pressure_in": 30.18,
+            "pressure_mb": 1022,
+            "temp_c": 12.4,
+            "temp_f": 54.3,
+            "uv": 0,
+            "vis_km": 1.3,
+            "vis_miles": 0,
+            "wind_degree": 328,
+            "wind_dir": "NNW",
+            "wind_kph": 7.2,
+            "wind_mph": 4.5,
+            "uv_condition": {
+              "text": "Low",
+              "color_code": "#59b61f"
+            }
+          },
+          "locationId": "10111",
+          "searchType": "locationId",
+          "slug": "india/delhi/new-delhi/rabindra-nagar"
+        },
+        {
+          "station": "HT House, New Delhi, Delhi, India",
+          "city": "New Delhi",
+          "state": "Delhi",
+          "country": "India",
+          "location": "HT House",
+          "time_zone": "Asia/Kolkata",
+          "latitude": 28.628,
+          "longitude": 77.2231,
+          "uid": "PLLODA000128",
+          "city_slug": "india/delhi/new-delhi",
+          "country_slug": "india",
+          "location_slug": "india/delhi/new-delhi/ht-house",
+          "state_slug": "india/delhi",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "coordinates": [
+            77.2231,
+            28.628
+          ],
+          "background_image": "https://myserver.aqi.in/countrybg/india.svg",
+          "city_lat": 28.6325,
+          "city_lon": 77.2205,
+          "country_lat": 22.179,
+          "country_lon": 79.6146,
+          "state_lat": 28.6274,
+          "state_lon": 77.1717,
+          "iaqi": {
+            "AQI-IN": 438,
+            "aqi": 350,
+            "co": 112,
+            "no2": 74,
+            "o3": 21,
+            "pm10": 399,
+            "pm25": 300,
+            "so2": 46
+          },
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "isOnline": true,
+          "updatedAt": "2026-02-03T23:01:17.379Z",
+          "isRankedCity": true,
+          "distance": 2.09,
+          "weather": {
+            "uid": "PLLODA000128",
+            "cloud": 25,
+            "condition": {
+              "text": "Mist",
+              "icon": "https://myserver.aqi.in/uploads/weather-icons/5.svg",
+              "code": 1030
+            },
+            "feelslike_c": 12,
+            "feelslike_f": 53.6,
+            "gust_kph": 13.9,
+            "gust_mph": 8.6,
+            "humidity": 88,
+            "is_day": 0,
+            "last_updated": "2026-02-04 04:15",
+            "last_updated_epoch": 1770158700,
+            "precip_in": 0,
+            "precip_mm": 0,
+            "pressure_in": 30.18,
+            "pressure_mb": 1022,
+            "temp_c": 12.4,
+            "temp_f": 54.3,
+            "uv": 0,
+            "vis_km": 1.3,
+            "vis_miles": 0,
+            "wind_degree": 328,
+            "wind_dir": "NNW",
+            "wind_kph": 7.2,
+            "wind_mph": 4.5,
+            "uv_condition": {
+              "text": "Low",
+              "color_code": "#59b61f"
+            }
+          },
+          "locationId": "PLLODA000128",
+          "searchType": "locationId",
+          "slug": "india/delhi/new-delhi/ht-house"
+        }
+      ]
+    }
+  },
+  "getIpDetails": {
+    "name": "getIpDetails",
+    "url": "/service/get/ip/details",
+    "params": {
+      "source": "web"
+    },
+    "data": {
+      "status": "success",
+      "message": "IP found",
+      "data": {
+        "city": "Mumbai",
+        "country": "India",
+        "countryCode": "IN",
+        "lat": 19.0748,
+        "lon": 72.8856,
+        "offset": 19800,
+        "query": "103.121.242.199",
+        "regionName": "Maharashtra",
+        "status": "success",
+        "timezone": "Asia/Kolkata",
+        "zip": "400017"
+      }
+    }
+  },
+  "getLocationDetailsBySlug_station": {
+    "name": "getLocationDetailsBySlug_station",
+    "url": "/aqi/v2/getLocationDetailsBySlug",
+    "params": {
+      "slug": "india/delhi/new-delhi/janpath",
+      "type": "4",
+      "source": "web"
+    },
+    "data": {
+      "status": "success",
+      "message": "Location Data By location slug",
+      "data": [
+        {
+          "uid": "7024",
+          "city": "New Delhi",
+          "country": "India",
+          "iaqi": {
+            "AQI-IN": 442,
+            "aqi": 354,
+            "co": 105,
+            "no2": 82,
+            "o3": 22,
+            "pm10": 438,
+            "pm25": 305,
+            "so2": 43
+          },
+          "latitude": 28.62577,
+          "longitude": 77.217612,
+          "state": "Delhi",
+          "station": "Janpath, New Delhi, Delhi, India",
+          "time_zone": "Asia/Kolkata",
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "location": "Janpath",
+          "location_slug": "india/delhi/new-delhi/janpath",
+          "city_slug": "india/delhi/new-delhi",
+          "country_slug": "india",
+          "state_slug": "india/delhi",
+          "background_image": "https://myserver.aqi.in/countrybg/india.svg",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "city_lat": 28.6325,
+          "city_lon": 77.2205,
+          "country_lat": 22.179,
+          "country_lon": 79.6146,
+          "state_lat": 28.6274,
+          "state_lon": 77.1717,
+          "isOnline": true,
+          "updatedAt": "2026-02-03T23:01:13.085Z",
+          "isRankedCity": true,
+          "weather": {
+            "uid": "7024",
+            "cloud": 25,
+            "condition": {
+              "text": "Mist",
+              "icon": "https://myserver.aqi.in/uploads/weather-icons/5.svg",
+              "code": 1030
+            },
+            "feelslike_c": 12,
+            "feelslike_f": 53.6,
+            "gust_kph": 13.9,
+            "gust_mph": 8.6,
+            "humidity": 88,
+            "is_day": 0,
+            "last_updated": "2026-02-04 04:00",
+            "last_updated_epoch": 1770157800,
+            "precip_in": 0,
+            "precip_mm": 0,
+            "pressure_in": 30.18,
+            "pressure_mb": 1022,
+            "temp_c": 12.4,
+            "temp_f": 54.3,
+            "uv": 0,
+            "vis_km": 1.3,
+            "vis_miles": 0,
+            "wind_degree": 328,
+            "wind_dir": "NNW",
+            "wind_kph": 7.2,
+            "wind_mph": 4.5,
+            "uv_condition": {
+              "text": "Low",
+              "color_code": "#59b61f"
+            }
+          },
+          "searchType": "locationId",
+          "locationId": "7024",
+          "slug": "india/delhi/new-delhi/janpath"
+        }
+      ]
+    }
+  },
+  "getLocationDetailsBySlug_city": {
+    "name": "getLocationDetailsBySlug_city",
+    "url": "/aqi/v2/getLocationDetailsBySlug",
+    "params": {
+      "slug": "india/delhi/new-delhi",
+      "type": "3",
+      "source": "web"
+    },
+    "data": {
+      "status": "success",
+      "message": "Location Data By slug",
+      "data": [
+        {
+          "station": "Dwarka, New Delhi, Delhi, India",
+          "city": "New Delhi",
+          "state": "Delhi",
+          "country": "India",
+          "location": "New Delhi",
+          "time_zone": "Asia/Kolkata",
+          "latitude": 28.6325,
+          "longitude": 77.2205,
+          "uid": "8181",
+          "city_slug": "india/delhi/new-delhi",
+          "country_slug": "india",
+          "location_slug": "india/delhi/new-delhi/dwarka",
+          "state_slug": "india/delhi",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "background_image": "https://myserver.aqi.in/countrybg/india.svg",
+          "city_lat": 28.6325,
+          "city_lon": 77.2205,
+          "country_lat": 22.179,
+          "country_lon": 79.6146,
+          "state_lat": 28.6274,
+          "state_lon": 77.1717,
+          "iaqi": {
+            "AQI-IN": 479,
+            "aqi": 471,
+            "co": 210,
+            "no2": 52,
+            "o3": 24,
+            "pm10": 450,
+            "pm25": 338,
+            "so2": 9,
+            "t": null
+          },
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "isOnline": true,
+          "updatedAt": "2026-02-03T23:01:05.501Z",
+          "isRankedCity": true,
+          "weather": {
+            "uid": "8181",
+            "cloud": 25,
+            "condition": {
+              "text": "Mist",
+              "icon": "https://myserver.aqi.in/uploads/weather-icons/5.svg",
+              "code": 1030
+            },
+            "feelslike_c": 12,
+            "feelslike_f": 53.6,
+            "gust_kph": 14.7,
+            "gust_mph": 9.1,
+            "humidity": 88,
+            "is_day": 0,
+            "last_updated": "2026-02-04 04:15",
+            "last_updated_epoch": 1770158700,
+            "precip_in": 0,
+            "precip_mm": 0,
+            "pressure_in": 30.18,
+            "pressure_mb": 1022,
+            "temp_c": 12.4,
+            "temp_f": 54.3,
+            "uv": 0,
+            "vis_km": 1.3,
+            "vis_miles": 0,
+            "wind_degree": 329,
+            "wind_dir": "NNW",
+            "wind_kph": 7.2,
+            "wind_mph": 4.5,
+            "uv_condition": {
+              "text": "Low",
+              "color_code": "#59b61f"
+            }
+          },
+          "locationId": "New Delhi",
+          "searchType": "cityId",
+          "slug": "india/delhi/new-delhi"
+        }
+      ]
+    }
+  },
+  "getLocationDetailsBySlug_state": {
+    "name": "getLocationDetailsBySlug_state",
+    "url": "/aqi/v2/getLocationDetailsBySlug",
+    "params": {
+      "slug": "india/delhi",
+      "type": "2",
+      "source": "web"
+    },
+    "data": {
+      "status": "success",
+      "message": "Location Data By slug",
+      "data": [
+        {
+          "station": "Dda Flats, New Delhi, Delhi, India",
+          "state": "Delhi",
+          "country": "India",
+          "location": "Delhi",
+          "state_slug": "india/delhi",
+          "country_slug": "india",
+          "time_zone": "Asia/Kolkata",
+          "latitude": 28.6274,
+          "longitude": 77.1717,
+          "uid": "1020BAD4DF0C",
+          "background_image": "https://airquality.aqi.in/public/countrybg/india.svg",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "state_lat": 28.6274,
+          "state_lon": 77.1717,
+          "country_lat": 22.179,
+          "country_lon": 79.6146,
+          "isOnline": true,
+          "updatedAt": "2026-02-03T22:41:37.566Z",
+          "iaqi": {
+            "pm25": 336.92,
+            "pm10": 450.9,
+            "AQI-IN": 477.11,
+            "aqi": 469.6,
+            "noise": 65,
+            "tvoc": 8.131,
+            "co": 210.17,
+            "no2": 51.91,
+            "o3": 24.79,
+            "so2": 9.16
+          },
+          "updated_at": "2026-02-04T04:11:37.000Z",
+          "isRankedCity": true,
+          "locationId": "Delhi",
+          "searchType": "stateId",
+          "slug": "india/delhi"
+        }
+      ]
+    }
+  },
+  "getLocationDetailsBySlug_country": {
+    "name": "getLocationDetailsBySlug_country",
+    "url": "/aqi/v2/getLocationDetailsBySlug",
+    "params": {
+      "slug": "india",
+      "type": "1",
+      "source": "web"
+    },
+    "data": {
+      "status": "success",
+      "message": "Location Data By slug",
+      "data": [
+        {
+          "station": "Dda Flats, New Delhi, Delhi, India",
+          "country": "India",
+          "location": "India",
+          "country_slug": "india",
+          "time_zone": "Asia/Kolkata",
+          "latitude": 22.179,
+          "longitude": 79.6146,
+          "uid": "1020BAD4DF0C",
+          "background_image": "https://airquality.aqi.in/public/countrybg/india.svg",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "country_lat": 22.179,
+          "country_lon": 79.6146,
+          "isOnline": true,
+          "updatedAt": "2026-02-03T22:51:34.945Z",
+          "iaqi": {
+            "pm25": 154.93,
+            "pm10": 200.76,
+            "AQI-IN": 271.32,
+            "aqi": 244.09,
+            "noise": 64,
+            "tvoc": 8.2,
+            "co": 135.68,
+            "no2": 30.02,
+            "o3": 28.33,
+            "so2": 9.59
+          },
+          "updated_at": "2026-02-04T04:21:34.000Z",
+          "isRankedCity": true,
+          "locationId": "India",
+          "searchType": "countryId",
+          "slug": "india"
+        }
+      ]
+    }
+  },
+  "searchLocationCityStateCountry": {
+    "name": "searchLocationCityStateCountry",
+    "url": "/aqi/searchLocationCityStateCountry",
+    "params": {
+      "searchString": "delhi",
+      "source": "web"
+    },
+    "data": {
+      "status": "success",
+      "message": "Search Result",
+      "data": {
+        "countries": [],
+        "states": [
+          {
+            "locationId": "Delhi",
+            "location": "Delhi",
+            "state": "Delhi",
+            "country": "India",
+            "searchType": "stateId",
+            "flag": "https://flagcdn.com/w160/in.png",
+            "slug": "india/delhi",
+            "latitude": 28.6274,
+            "longitude": 77.1717
+          }
+        ],
+        "cities": [
+          {
+            "weather": {
+              "temp_c": 12.4,
+              "temp_f": 54.3
+            },
+            "locationId": "New Delhi",
+            "location": "New Delhi",
+            "city": "New Delhi",
+            "state": "Delhi",
+            "country": "India",
+            "searchType": "cityId",
+            "flag": "https://flagcdn.com/w160/in.png",
+            "slug": "india/delhi/new-delhi",
+            "latitude": 28.6325,
+            "longitude": 77.2205,
+            "iaqi": {
+              "AQI-IN": 481,
+              "aqi": 474
+            }
+          }
+        ],
+        "stations": [
+          {
+            "uid": "10118",
+            "city": "New Delhi",
+            "country": "India",
+            "iaqi": {
+              "AQI-IN": 478,
+              "aqi": 401
+            },
+            "latitude": 28.672616,
+            "longitude": 77.32087,
+            "state": "Delhi",
+            "flag": "https://flagcdn.com/w160/in.png",
+            "weather": {
+              "temp_c": 12.4,
+              "temp_f": 54.3
+            },
+            "locationId": "10118",
+            "location": "Vivek Vihar",
+            "searchType": "locationId",
+            "slug": "india/delhi/new-delhi/vivek-vihar"
+          },
+          {
+            "uid": "11267",
+            "city": "New Delhi",
+            "country": "India",
+            "iaqi": {
+              "AQI-IN": 480,
+              "aqi": 402
+            },
+            "latitude": 28.771498,
+            "longitude": 77.049131,
+            "state": "Delhi",
+            "flag": "https://flagcdn.com/w160/in.png",
+            "weather": {
+              "temp_c": 12.4,
+              "temp_f": 54.3
+            },
+            "locationId": "11267",
+            "location": "Puth Khurd",
+            "searchType": "locationId",
+            "slug": "india/delhi/new-delhi/puth-khurd"
+          },
+          {
+            "uid": "10121",
+            "city": "New Delhi",
+            "country": "India",
+            "iaqi": {
+              "AQI-IN": 428,
+              "aqi": 336
+            },
+            "latitude": 28.720639,
+            "longitude": 77.246932,
+            "state": "Delhi",
+            "flag": "https://flagcdn.com/w160/in.png",
+            "weather": {
+              "temp_c": 12.4,
+              "temp_f": 54.3
+            },
+            "locationId": "10121",
+            "location": "Sonia Vihar",
+            "searchType": "locationId",
+            "slug": "india/delhi/new-delhi/sonia-vihar"
+          },
+          {
+            "uid": "2553",
+            "city": "New Delhi",
+            "country": "India",
+            "iaqi": {
+              "AQI-IN": 500,
+              "aqi": 406
+            },
+            "latitude": 28.653969,
+            "longitude": 77.304274,
+            "state": "Delhi",
+            "flag": "https://flagcdn.com/w160/in.png",
+            "weather": {
+              "temp_c": 12.4,
+              "temp_f": 54.3
+            },
+            "locationId": "2553",
+            "location": "Anand Vihar",
+            "searchType": "locationId",
+            "slug": "india/delhi/new-delhi/anand-vihar"
+          },
+          {
+            "uid": "2554",
+            "city": "New Delhi",
+            "country": "India",
+            "iaqi": {
+              "AQI-IN": 451,
+              "aqi": 366
+            },
+            "latitude": 28.652931,
+            "longitude": 77.20249,
+            "state": "Delhi",
+            "flag": "https://flagcdn.com/w160/in.png",
+            "weather": {
+              "temp_c": 12.4,
+              "temp_f": 54.3
+            },
+            "locationId": "2554",
+            "location": "Jhandewalan",
+            "searchType": "locationId",
+            "slug": "india/delhi/new-delhi/jhandewalan"
+          },
+          {
+            "uid": "10120",
+            "city": "New Delhi",
+            "country": "India",
+            "iaqi": {
+              "AQI-IN": 471,
+              "aqi": 392
+            },
+            "latitude": 28.581996,
+            "longitude": 76.934609,
+            "state": "Delhi",
+            "flag": "https://flagcdn.com/w160/in.png",
+            "weather": {
+              "temp_c": 12.4,
+              "temp_f": 54.3
+            },
+            "locationId": "10120",
+            "location": "Khera Dabar",
+            "searchType": "locationId",
+            "slug": "india/delhi/new-delhi/khera-dabar"
+          },
+          {
+            "uid": "2556",
+            "city": "New Delhi",
+            "country": "India",
+            "iaqi": {
+              "AQI-IN": 401,
+              "aqi": 300
+            },
+            "latitude": 28.567766,
+            "longitude": 77.17246,
+            "state": "Delhi",
+            "flag": "https://flagcdn.com/w160/in.png",
+            "weather": {
+              "temp_c": 12.4,
+              "temp_f": 54.3
+            },
+            "locationId": "2556",
+            "location": "RK Puram",
+            "searchType": "locationId",
+            "slug": "india/delhi/new-delhi/rk-puram"
+          },
+          {
+            "uid": "12466",
+            "city": "New Delhi",
+            "country": "India",
+            "iaqi": {
+              "AQI-IN": 455,
+              "aqi": 372
+            },
+            "latitude": 28.598847,
+            "longitude": 77.311146,
+            "state": "Delhi",
+            "flag": "https://flagcdn.com/w160/in.png",
+            "weather": {
+              "temp_c": 12.4,
+              "temp_f": 54.3
+            },
+            "locationId": "12466",
+            "location": "Paryatan Vihar",
+            "searchType": "locationId",
+            "slug": "india/delhi/new-delhi/paryatan-vihar"
+          },
+          {
+            "uid": "10111",
+            "city": "New Delhi",
+            "country": "India",
+            "iaqi": {
+              "AQI-IN": 434,
+              "aqi": 344
+            },
+            "latitude": 28.600852,
+            "longitude": 77.222363,
+            "state": "Delhi",
+            "flag": "https://flagcdn.com/w160/in.png",
+            "weather": {
+              "temp_c": 12.4,
+              "temp_f": 54.3
+            },
+            "locationId": "10111",
+            "location": "Rabindra Nagar",
+            "searchType": "locationId",
+            "slug": "india/delhi/new-delhi/rabindra-nagar"
+          },
+          {
+            "uid": "10707",
+            "city": "New Delhi",
+            "country": "India",
+            "iaqi": {
+              "AQI-IN": 428,
+              "aqi": 336
+            },
+            "latitude": 28.531911,
+            "longitude": 77.195852,
+            "state": "Delhi",
+            "flag": "https://flagcdn.com/w160/in.png",
+            "weather": {
+              "temp_c": 12.4,
+              "temp_f": 54.3
+            },
+            "locationId": "10707",
+            "location": "Navjeevan Vihar",
+            "searchType": "locationId",
+            "slug": "india/delhi/new-delhi/navjeevan-vihar"
+          }
+        ]
+      }
+    }
+  },
+  "getLast12HourHistory": {
+    "name": "getLast12HourHistory",
+    "url": "/aqi/getLast12HourHistory",
+    "params": {
+      "slug": "india/delhi/new-delhi/janpath",
+      "sensorname": "pm25",
+      "slugType": "locationId",
+      "source": "web"
+    },
+    "data": {
+      "status": "success",
+      "message": "Chart station data fetched successfully",
+      "data": {
+        "maxValue": 322,
+        "minValue": 92,
+        "averageArray": [
+          92,
+          99,
+          107,
+          124,
+          138,
+          175,
+          244,
+          213,
+          263,
+          271,
+          271,
+          296,
+          301,
+          282,
+          277,
+          322,
+          317,
+          270,
+          278,
+          287,
+          313,
+          296,
+          293,
+          305
+        ],
+        "timeArray": [
+          "2026-02-03T17:01:00.000Z",
+          "2026-02-03T17:31:00.000Z",
+          "2026-02-03T18:01:00.000Z",
+          "2026-02-03T18:31:00.000Z",
+          "2026-02-03T19:01:00.000Z",
+          "2026-02-03T19:31:00.000Z",
+          "2026-02-03T20:01:00.000Z",
+          "2026-02-03T20:31:00.000Z",
+          "2026-02-03T21:01:00.000Z",
+          "2026-02-03T21:31:00.000Z",
+          "2026-02-03T22:01:00.000Z",
+          "2026-02-03T22:31:00.000Z",
+          "2026-02-03T23:01:00.000Z",
+          "2026-02-03T23:31:00.000Z",
+          "2026-02-04T00:01:00.000Z",
+          "2026-02-04T00:31:00.000Z",
+          "2026-02-04T01:01:00.000Z",
+          "2026-02-04T01:31:00.000Z",
+          "2026-02-04T02:01:00.000Z",
+          "2026-02-04T02:31:00.000Z",
+          "2026-02-04T03:01:00.000Z",
+          "2026-02-04T03:31:00.000Z",
+          "2026-02-04T04:01:00.000Z",
+          "2026-02-04T04:31:00.000Z"
+        ],
+        "avgValue": 243
+      }
+    }
+  },
+  "getLast24HourHistory": {
+    "name": "getLast24HourHistory",
+    "url": "/aqi/v3/getLast24HourHistory",
+    "params": {
+      "slug": "india/delhi/new-delhi/janpath",
+      "sensorname": "pm25",
+      "slugType": "locationId",
+      "source": "web"
+    },
+    "data": {
+      "status": "success",
+      "message": "24 Hour Chart station data fetched successfully",
+      "data": {
+        "minValue": 92,
+        "maxValue": 322,
+        "avgValue": 206,
+        "averageArray": [
+          171,
+          181,
+          172,
+          185,
+          192,
+          174,
+          157,
+          150,
+          167,
+          157,
+          169,
+          179,
+          197,
+          204,
+          224,
+          201,
+          198,
+          192,
+          193,
+          148,
+          149,
+          114,
+          103,
+          98,
+          92,
+          99,
+          107,
+          124,
+          138,
+          175,
+          244,
+          213,
+          263,
+          271,
+          271,
+          296,
+          301,
+          282,
+          277,
+          322,
+          317,
+          270,
+          278,
+          287,
+          313,
+          296,
+          293,
+          305
+        ],
+        "timeArray": [
+          "2026-02-03T04:31:00.000Z",
+          "2026-02-03T05:01:00.000Z",
+          "2026-02-03T05:31:00.000Z",
+          "2026-02-03T06:01:00.000Z",
+          "2026-02-03T06:31:00.000Z",
+          "2026-02-03T07:01:00.000Z",
+          "2026-02-03T07:31:00.000Z",
+          "2026-02-03T08:01:00.000Z",
+          "2026-02-03T08:31:00.000Z",
+          "2026-02-03T09:01:00.000Z",
+          "2026-02-03T09:31:00.000Z",
+          "2026-02-03T10:01:00.000Z",
+          "2026-02-03T10:31:00.000Z",
+          "2026-02-03T11:01:00.000Z",
+          "2026-02-03T11:31:00.000Z",
+          "2026-02-03T12:01:00.000Z",
+          "2026-02-03T12:31:00.000Z",
+          "2026-02-03T13:31:00.000Z",
+          "2026-02-03T14:01:00.000Z",
+          "2026-02-03T14:31:00.000Z",
+          "2026-02-03T15:01:00.000Z",
+          "2026-02-03T15:31:00.000Z",
+          "2026-02-03T16:01:00.000Z",
+          "2026-02-03T16:31:00.000Z",
+          "2026-02-03T17:01:00.000Z",
+          "2026-02-03T17:31:00.000Z",
+          "2026-02-03T18:01:00.000Z",
+          "2026-02-03T18:31:00.000Z",
+          "2026-02-03T19:01:00.000Z",
+          "2026-02-03T19:31:00.000Z",
+          "2026-02-03T20:01:00.000Z",
+          "2026-02-03T20:31:00.000Z",
+          "2026-02-03T21:01:00.000Z",
+          "2026-02-03T21:31:00.000Z",
+          "2026-02-03T22:01:00.000Z",
+          "2026-02-03T22:31:00.000Z",
+          "2026-02-03T23:01:00.000Z",
+          "2026-02-03T23:31:00.000Z",
+          "2026-02-04T00:01:00.000Z",
+          "2026-02-04T00:31:00.000Z",
+          "2026-02-04T01:01:00.000Z",
+          "2026-02-04T01:31:00.000Z",
+          "2026-02-04T02:01:00.000Z",
+          "2026-02-04T02:31:00.000Z",
+          "2026-02-04T03:01:00.000Z",
+          "2026-02-04T03:31:00.000Z",
+          "2026-02-04T04:01:00.000Z",
+          "2026-02-04T04:31:00.000Z"
+        ],
+        "whoguidedata": {
+          "Data": {
+            "minValue": 95,
+            "maxValue": 320,
+            "avgValue": 204,
+            "averageArray": [
+              294,
+              300,
+              274,
+              320,
+              280,
+              298,
+              271,
+              238,
+              210,
+              131,
+              103,
+              95,
+              108,
+              148,
+              192,
+              212,
+              200,
+              174,
+              162,
+              154,
+              183,
+              178,
+              176,
+              198
+            ],
+            "timeArray": [
+              "2026-02-04T04:01:00.000Z",
+              "2026-02-04T03:01:00.000Z",
+              "2026-02-04T02:01:00.000Z",
+              "2026-02-04T01:01:00.000Z",
+              "2026-02-04T00:01:00.000Z",
+              "2026-02-03T23:01:00.000Z",
+              "2026-02-03T22:01:00.000Z",
+              "2026-02-03T21:01:00.000Z",
+              "2026-02-03T20:01:00.000Z",
+              "2026-02-03T19:01:00.000Z",
+              "2026-02-03T18:01:00.000Z",
+              "2026-02-03T17:01:00.000Z",
+              "2026-02-03T16:01:00.000Z",
+              "2026-02-03T15:01:00.000Z",
+              "2026-02-03T14:01:00.000Z",
+              "2026-02-03T12:01:00.000Z",
+              "2026-02-03T11:01:00.000Z",
+              "2026-02-03T10:01:00.000Z",
+              "2026-02-03T09:01:00.000Z",
+              "2026-02-03T08:01:00.000Z",
+              "2026-02-03T07:01:00.000Z",
+              "2026-02-03T06:01:00.000Z",
+              "2026-02-03T05:01:00.000Z",
+              "2026-02-03T04:01:00.000Z"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "getLast7DaysHistory": {
+    "name": "getLast7DaysHistory",
+    "url": "/aqi/getLast7DaysHistory",
+    "params": {
+      "slug": "india/delhi/new-delhi/janpath",
+      "sensorname": "pm25",
+      "slugType": "locationId",
+      "source": "web"
+    },
+    "data": {
+      "status": "success",
+      "message": "7-day chart data fetched successfully",
+      "data": {
+        "minValue": 58,
+        "maxValue": 278,
+        "avgValue": 172,
+        "averageArray": [
+          149,
+          155,
+          166,
+          177,
+          160,
+          127,
+          126,
+          180,
+          212,
+          204,
+          100,
+          184,
+          278,
+          275,
+          238,
+          227,
+          178,
+          153,
+          58,
+          104,
+          183,
+          151,
+          146,
+          195
+        ],
+        "timeArray": [
+          "2026-01-28T00:01:00.000Z",
+          "2026-01-28T06:01:00.000Z",
+          "2026-01-28T12:01:00.000Z",
+          "2026-01-28T18:01:00.000Z",
+          "2026-01-29T00:01:00.000Z",
+          "2026-01-29T06:01:00.000Z",
+          "2026-01-29T12:01:00.000Z",
+          "2026-01-29T18:01:00.000Z",
+          "2026-01-30T00:01:00.000Z",
+          "2026-01-30T06:01:00.000Z",
+          "2026-01-30T12:01:00.000Z",
+          "2026-01-30T18:01:00.000Z",
+          "2026-01-31T00:01:00.000Z",
+          "2026-01-31T06:01:00.000Z",
+          "2026-01-31T12:01:00.000Z",
+          "2026-01-31T18:01:00.000Z",
+          "2026-02-01T00:01:00.000Z",
+          "2026-02-01T06:01:00.000Z",
+          "2026-02-01T12:01:00.000Z",
+          "2026-02-01T18:01:00.000Z",
+          "2026-02-02T00:01:00.000Z",
+          "2026-02-02T06:01:00.000Z",
+          "2026-02-02T12:01:00.000Z",
+          "2026-02-02T18:01:00.000Z"
+        ],
+        "whoguidedata": {
+          "Data": {
+            "minValue": 123,
+            "maxValue": 255,
+            "avgValue": 172,
+            "averageArray": [
+              169,
+              123,
+              255,
+              174,
+              149,
+              161
+            ],
+            "timeArray": [
+              "2026-02-02T00:01:00.000Z",
+              "2026-02-01T00:01:00.000Z",
+              "2026-01-31T00:01:00.000Z",
+              "2026-01-30T00:01:00.000Z",
+              "2026-01-29T00:01:00.000Z",
+              "2026-01-28T00:01:00.000Z"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "getLast30DaysHistory": {
+    "name": "getLast30DaysHistory",
+    "url": "/aqi/getLast30DaysHistory",
+    "params": {
+      "slug": "india/delhi/new-delhi/janpath",
+      "sensorname": "pm25",
+      "slugType": "locationId",
+      "source": "web"
+    },
+    "data": {
+      "status": "success",
+      "message": "Last 30 days data fetched successfully",
+      "data": {
+        "minValue": 81,
+        "maxValue": 405,
+        "avgValue": 214,
+        "averageArray": [
+          132,
+          191,
+          149,
+          170,
+          250,
+          203,
+          177,
+          192,
+          291,
+          280,
+          251,
+          275,
+          382,
+          405,
+          336,
+          274,
+          213,
+          216,
+          183,
+          81,
+          105,
+          169,
+          247,
+          161,
+          149,
+          174,
+          255,
+          123,
+          169
+        ],
+        "timeArray": [
+          "2026-01-05T00:00:00.000Z",
+          "2026-01-06T00:00:00.000Z",
+          "2026-01-07T00:00:00.000Z",
+          "2026-01-08T00:00:00.000Z",
+          "2026-01-09T00:00:00.000Z",
+          "2026-01-10T00:00:00.000Z",
+          "2026-01-11T00:00:00.000Z",
+          "2026-01-12T00:00:00.000Z",
+          "2026-01-13T00:00:00.000Z",
+          "2026-01-14T00:00:00.000Z",
+          "2026-01-15T00:00:00.000Z",
+          "2026-01-16T00:00:00.000Z",
+          "2026-01-17T00:00:00.000Z",
+          "2026-01-18T00:00:00.000Z",
+          "2026-01-19T00:00:00.000Z",
+          "2026-01-20T00:00:00.000Z",
+          "2026-01-21T00:00:00.000Z",
+          "2026-01-22T00:00:00.000Z",
+          "2026-01-23T00:00:00.000Z",
+          "2026-01-24T00:00:00.000Z",
+          "2026-01-25T00:00:00.000Z",
+          "2026-01-26T00:00:00.000Z",
+          "2026-01-27T00:00:00.000Z",
+          "2026-01-28T00:00:00.000Z",
+          "2026-01-29T00:00:00.000Z",
+          "2026-01-30T00:00:00.000Z",
+          "2026-01-31T00:00:00.000Z",
+          "2026-02-01T00:00:00.000Z",
+          "2026-02-02T00:00:00.000Z"
+        ]
+      }
+    }
+  },
+  "getStoriesBySlug": {
+    "name": "getStoriesBySlug",
+    "error": "400 Bad Request",
+    "data": null
+  },
+  "getAirQualityRanklistCountryAndCity_cities": {
+    "name": "getAirQualityRanklistCountryAndCity_cities",
+    "url": "/aqi/getAirQualityRanklistCountryAndCity",
+    "params": {
+      "sensorname": "pm25",
+      "type": "2",
+      "limit": "10",
+      "source": "web"
+    },
+    "data": {
+      "status": "success",
+      "message": "Ranking fetched successfully",
+      "data": [
+        {
+          "location": "Ghaziabad",
+          "locationId": "Ghaziabad",
+          "city": "Ghaziabad",
+          "state": "Uttar Pradesh",
+          "country": "India",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "slug": "india/uttar-pradesh/ghaziabad",
+          "latitude": 28.67,
+          "longitude": 77.42,
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "pm25": 353,
+          "rank": 1
+        },
+        {
+          "location": "New Delhi",
+          "locationId": "New Delhi",
+          "city": "New Delhi",
+          "state": "Delhi",
+          "country": "India",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "slug": "india/delhi/new-delhi",
+          "latitude": 28.6325,
+          "longitude": 77.2205,
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "pm25": 339,
+          "rank": 2
+        },
+        {
+          "location": "Noida",
+          "locationId": "Noida",
+          "city": "Noida",
+          "state": "Uttar Pradesh",
+          "country": "India",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "slug": "india/uttar-pradesh/noida",
+          "latitude": 28.57,
+          "longitude": 77.32,
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "pm25": 338,
+          "rank": 3
+        },
+        {
+          "location": "Greater Noida",
+          "locationId": "Greater Noida",
+          "city": "Greater Noida",
+          "state": "Uttar Pradesh",
+          "country": "India",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "slug": "india/uttar-pradesh/greater-noida",
+          "latitude": 28.4911,
+          "longitude": 77.5197,
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "pm25": 301,
+          "rank": 4
+        },
+        {
+          "location": "Gurgaon",
+          "locationId": "Gurgaon",
+          "city": "Gurgaon",
+          "state": "Haryana",
+          "country": "India",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "slug": "india/haryana/gurgaon",
+          "latitude": 28.456,
+          "longitude": 77.029,
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "pm25": 300,
+          "rank": 5
+        },
+        {
+          "location": "Faridabad",
+          "locationId": "Faridabad",
+          "city": "Faridabad",
+          "state": "Haryana",
+          "country": "India",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "slug": "india/haryana/faridabad",
+          "latitude": 28.4211,
+          "longitude": 77.3078,
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "pm25": 287,
+          "rank": 6
+        },
+        {
+          "location": "Baghpat",
+          "locationId": "Baghpat",
+          "city": "Baghpat",
+          "state": "Uttar Pradesh",
+          "country": "India",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "slug": "india/uttar-pradesh/baghpat",
+          "latitude": 28.99,
+          "longitude": 77.022,
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "pm25": 279,
+          "rank": 7
+        },
+        {
+          "location": "Palwal",
+          "locationId": "Palwal",
+          "city": "Palwal",
+          "state": "Haryana",
+          "country": "India",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "slug": "india/haryana/palwal",
+          "latitude": 28.4211,
+          "longitude": 77.3078,
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "pm25": 264,
+          "rank": 8
+        },
+        {
+          "location": "Sonipat",
+          "locationId": "Sonipat",
+          "city": "Sonipat",
+          "state": "Haryana",
+          "country": "India",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "slug": "india/haryana/sonipat",
+          "latitude": 28.99,
+          "longitude": 77.022,
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "pm25": 263,
+          "rank": 9
+        },
+        {
+          "location": "Hisar",
+          "locationId": "Hisar",
+          "city": "Hisar",
+          "state": "Haryana",
+          "country": "India",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "slug": "india/haryana/hisar",
+          "latitude": 29.15,
+          "longitude": 75.7,
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "pm25": 256,
+          "rank": 10
+        }
+      ]
+    }
+  },
+  "getAirQualityRanklistCountryAndCity_countries": {
+    "name": "getAirQualityRanklistCountryAndCity_countries",
+    "url": "/aqi/getAirQualityRanklistCountryAndCity",
+    "params": {
+      "sensorname": "pm25",
+      "type": "1",
+      "limit": "10",
+      "source": "web"
+    },
+    "data": {
+      "status": "success",
+      "message": "Ranking fetched successfully",
+      "data": [
+        {
+          "location": "India",
+          "locationId": "India",
+          "flag": "https://flagcdn.com/w160/in.png",
+          "slug": "india",
+          "latitude": 22.179,
+          "longitude": 79.6146,
+          "updated_at": "2026-02-04T04:31:00.000Z",
+          "pm25": 156,
+          "rank": 1
+        },
+        {
+          "location": "Bangladesh",
+          "locationId": "Bangladesh",
+          "flag": "https://flagcdn.com/w160/bd.png",
+          "slug": "bangladesh",
+          "latitude": 23.5,
+          "longitude": 90.3857,
+          "updated_at": "2026-02-04T05:01:00.000Z",
+          "pm25": 122,
+          "rank": 2
+        },
+        {
+          "location": "Pakistan",
+          "locationId": "Pakistan",
+          "flag": "https://flagcdn.com/w160/pk.png",
+          "slug": "pakistan",
+          "latitude": 29.7829,
+          "longitude": 69.2343,
+          "updated_at": "2026-02-04T04:01:00.000Z",
+          "pm25": 75,
+          "rank": 3
+        },
+        {
+          "location": "Kuwait",
+          "locationId": "Kuwait",
+          "flag": "https://flagcdn.com/w160/kw.png",
+          "slug": "kuwait",
+          "latitude": 29.312,
+          "longitude": 47.9149,
+          "updated_at": "2026-02-04T02:01:00.000Z",
+          "pm25": 58,
+          "rank": 4
+        },
+        {
+          "location": "Nepal",
+          "locationId": "Nepal",
+          "flag": "https://flagcdn.com/w160/np.png",
+          "slug": "nepal",
+          "latitude": 28.2585,
+          "longitude": 83.9453,
+          "updated_at": "2026-02-04T04:46:00.000Z",
+          "pm25": 55,
+          "rank": 5
+        },
+        {
+          "location": "China",
+          "locationId": "China",
+          "flag": "https://flagcdn.com/w160/cn.png",
+          "slug": "china",
+          "latitude": 36.2682,
+          "longitude": 104.356,
+          "updated_at": "2026-02-04T07:01:00.000Z",
+          "pm25": 50,
+          "rank": 6
+        },
+        {
+          "location": "Vietnam",
+          "locationId": "Vietnam",
+          "flag": "https://flagcdn.com/w160/vn.png",
+          "slug": "vietnam",
+          "latitude": 15.0286,
+          "longitude": 106.851,
+          "updated_at": "2026-02-04T06:01:00.000Z",
+          "pm25": 50,
+          "rank": 7
+        },
+        {
+          "location": "United Arab Emirates",
+          "locationId": "United Arab Emirates",
+          "flag": "https://flagcdn.com/w160/ae.png",
+          "slug": "united-arab-emirates",
+          "latitude": 24.197,
+          "longitude": 54.1029,
+          "updated_at": "2026-02-04T03:01:00.000Z",
+          "pm25": 45,
+          "rank": 8
+        },
+        {
+          "location": "North Macedonia",
+          "locationId": "North Macedonia",
+          "flag": "https://flagcdn.com/w160/mk.png",
+          "slug": "north-macedonia",
+          "latitude": 41.6252,
+          "longitude": 21.7003,
+          "updated_at": "2026-02-04T00:01:00.000Z",
+          "pm25": 44,
+          "rank": 9
+        },
+        {
+          "location": "San Marino",
+          "locationId": "San Marino",
+          "flag": "https://flagcdn.com/w160/sm.png",
+          "slug": "san-marino",
+          "latitude": 43.9383,
+          "longitude": 12.4632,
+          "updated_at": "2026-02-04T00:01:00.000Z",
+          "pm25": 44,
+          "rank": 10
+        }
+      ]
+    }
+  }
+}
