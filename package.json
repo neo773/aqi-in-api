@@ -1,8 +1,13 @@
 {
   "name": "aqi-in-api",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fully typed TypeScript SDK for the AQI.in Air Quality API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neo773/aqi-in-api.git"
+  },
+  "author": "neo773",
   "exports": {
     ".": "./dist/index.mjs",
     "./package.json": "./package.json"
