@@ -1,7 +1,7 @@
 import { AQIClientConfig } from "./aqi-client.config";
-import { DEFAULT_BASE_URL, generateToken, DEFAULT_USER_AGENT, ENDPOINTS } from "../constants";
+import { DEFAULT_BASE_URL, DEFAULT_USER_AGENT, ENDPOINTS } from "../constants";
 import { AQIException } from "../exceptions";
-import { buildUrl, getSlugDepth } from "../utils";
+import { buildUrl, generateToken, getSlugDepth } from "../utils";
 import {
   APIResponse,
   Station,
