@@ -1,31 +1,26 @@
 {
   "name": "aqi-in-api",
-  "type": "module",
-  "version": "1.1.0",
-  "description": "Fully typed TypeScript SDK for the AQI.in Air Quality API",
+  "version": "1.1.1",
+  "author": "neo773",
   "repository": {
     "type": "git",
     "url": "https://github.com/neo773/aqi-in-api.git"
   },
-  "author": "neo773",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "devDependencies": {
+    "@types/bun": "^1.3.8",
+    "tsdown": "^0.18.1",
+    "typescript": "^5.9.3"
+  },
   "exports": {
     ".": "./dist/index.mjs",
     "./package.json": "./package.json"
   },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.mts",
+  "description": "Fully typed TypeScript SDK for the AQI.in Air Quality API",
   "files": [
     "dist"
   ],
-  "scripts": {
-    "build": "tsdown src/index.ts",
-    "dev": "tsdown src/index.ts --watch",
-    "test": "bun test",
-    "test:unit": "bun test tests/unit",
-    "test:e2e": "bun test tests/e2e",
-    "typecheck": "tsc --noEmit"
-  },
   "keywords": [
     "aqi",
     "air-quality",
@@ -36,13 +31,17 @@
     "sdk"
   ],
   "license": "MIT",
-  "devDependencies": {
-    "@types/bun": "^1.3.8",
-    "@types/jsonwebtoken": "^9.0.10",
-    "tsdown": "^0.18.1",
-    "typescript": "^5.9.3"
+  "scripts": {
+    "build": "tsdown src/index.ts",
+    "dev": "tsdown src/index.ts --watch",
+    "test": "bun test",
+    "test:unit": "bun test tests/unit",
+    "test:e2e": "bun test tests/e2e",
+    "typecheck": "tsc --noEmit"
   },
+  "type": "module",
+  "types": "./dist/index.d.mts",
   "dependencies": {
-    "jsonwebtoken": "^9.0.3"
+    "@tsndr/cloudflare-worker-jwt": "^3.2.1"
   }
 }

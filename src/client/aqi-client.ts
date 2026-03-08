@@ -20,13 +20,22 @@ import {
 
 export class AQIClient {
   private readonly baseUrl: string;
-  private readonly token: string;
+  private readonly customToken?: string;
+  private cachedToken?: string;
   private readonly userAgent: string;
 
   constructor(config: AQIClientConfig = {}) {
     this.baseUrl = config.baseUrl ?? DEFAULT_BASE_URL;
-    this.token = config.token ?? generateToken();
+    this.customToken = config.token;
     this.userAgent = config.userAgent ?? DEFAULT_USER_AGENT;
+  }
+
+  private async getToken(): Promise<string> {
+    if (this.customToken) return this.customToken;
+    if (!this.cachedToken) {
+      this.cachedToken = await generateToken();
+    }
+    return this.cachedToken;
   }
 
   private async request<T>(
@@ -34,12 +43,13 @@ export class AQIClient {
     params?: Record<string, string | number | undefined>
   ): Promise<T> {
     const url = buildUrl(this.baseUrl, endpoint, params);
+    const token = await this.getToken();
 
     const response = await fetch(url.toString(), {
       method: "GET",
       headers: {
         "User-Agent": this.userAgent,
-        authorization: `bearer ${this.token}`,
+        authorization: `bearer ${token}`,
       },
     });
 
