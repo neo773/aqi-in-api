@@ -1,7 +1,7 @@
 {
   "name": "aqi-in-api",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Fully typed TypeScript SDK for the AQI.in Air Quality API",
   "repository": {
     "type": "git",
@@ -38,7 +38,11 @@
   "license": "MIT",
   "devDependencies": {
     "@types/bun": "^1.3.8",
+    "@types/jsonwebtoken": "^9.0.10",
     "tsdown": "^0.18.1",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.3"
   }
 }

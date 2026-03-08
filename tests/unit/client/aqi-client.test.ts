@@ -1,7 +1,7 @@
 import { describe, expect, test, mock, beforeEach, afterEach } from "bun:test";
+import jwt from "jsonwebtoken";
 import { AQIClient } from "../../../src/client/aqi-client";
 import { AQIException } from "../../../src/exceptions/aqi.exception";
-import { DEFAULT_TOKEN } from "../../../src/constants/default-token.constant";
 
 describe("AQIClient", () => {
   const originalFetch = globalThis.fetch;
@@ -30,14 +30,15 @@ describe("AQIClient", () => {
 
     await client.getIpDetails();
 
-    expect(globalThis.fetch).toHaveBeenCalledWith(
-      expect.any(String),
-      expect.objectContaining({
-        headers: expect.objectContaining({
-          authorization: `bearer ${DEFAULT_TOKEN}`,
-        }),
-      })
-    );
+    const call = (globalThis.fetch as ReturnType<typeof mock>).mock.calls[0];
+    const authHeader = call[1].headers.authorization as string;
+    expect(authHeader).toStartWith("bearer ");
+
+    const token = authHeader.replace("bearer ", "");
+    const decoded = jwt.decode(token) as jwt.JwtPayload;
+    expect(decoded.userID).toBe(1);
+    expect(decoded.exp).toBeDefined();
+    expect(decoded.iat).toBeDefined();
   });
 
   test("uses custom token when provided", async () => {

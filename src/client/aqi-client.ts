@@ -1,5 +1,5 @@
 import { AQIClientConfig } from "./aqi-client.config";
-import { DEFAULT_BASE_URL, DEFAULT_TOKEN, DEFAULT_USER_AGENT, ENDPOINTS } from "../constants";
+import { DEFAULT_BASE_URL, generateToken, DEFAULT_USER_AGENT, ENDPOINTS } from "../constants";
 import { AQIException } from "../exceptions";
 import { buildUrl, getSlugDepth } from "../utils";
 import {
@@ -25,7 +25,7 @@ export class AQIClient {
 
   constructor(config: AQIClientConfig = {}) {
     this.baseUrl = config.baseUrl ?? DEFAULT_BASE_URL;
-    this.token = config.token ?? DEFAULT_TOKEN;
+    this.token = config.token ?? generateToken();
     this.userAgent = config.userAgent ?? DEFAULT_USER_AGENT;
   }
 
