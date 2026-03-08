@@ -1,5 +1,4 @@
 import { describe, expect, test, mock, beforeEach, afterEach } from "bun:test";
-import jwt from "@tsndr/cloudflare-worker-jwt";
 import { AQIClient } from "../../../src/client/aqi-client";
 import { AQIException } from "../../../src/exceptions/aqi.exception";
 
@@ -35,10 +34,11 @@ describe("AQIClient", () => {
     expect(authHeader).toStartWith("bearer ");
 
     const token = authHeader.replace("bearer ", "");
-    const decoded = jwt.decode(token);
-    expect(decoded.payload.userID).toBe(1);
-    expect(decoded.payload.exp).toBeDefined();
-    expect(decoded.payload.iat).toBeDefined();
+    const [, payloadB64] = token.split(".");
+    const decoded = JSON.parse(atob(payloadB64!.replace(/-/g, "+").replace(/_/g, "/")));
+    expect(decoded.userID).toBe(1);
+    expect(decoded.exp).toBeDefined();
+    expect(decoded.iat).toBeDefined();
   });
 
   test("uses custom token when provided", async () => {
